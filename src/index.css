@@ -1,0 +1,158 @@
+
+
+
+body {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, sans-serif;
+  padding:0;
+  box-sizing: border-box;
+  color:black;
+  background-color:white;
+  /* place-items: center; */
+  /* min-width: 320px;
+  min-height: 100vh; */
+}
+
+.form{
+  width:100%;
+  margin-bottom:50px;
+}
+.text-input{
+  outline:none; 
+  padding:6px 10px;
+  margin-top: 30px;
+  margin-bottom:20px;
+  /* margin-left:1.5 rem; */
+  width:350px;
+  color:black;
+  height:30px;
+  background-color:white;
+  border:1px solid #b9b5fb;
+
+}
+.ulist{
+  list-style-type:none;
+  /* margin-left:2px;
+  margin-right:5px; */
+  /* position: relative; */
+
+}
+
+h1 {
+  font-size: 3.2em;
+  /* line-height: 1.1; */
+  text-align:center;
+
+}
+
+.btn3 {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  /* padding: 6px 12px; */
+  font-size: 16px;
+  font-weight: bold;
+  font-family: inherit;
+  background-color:#6C63FF;
+  cursor: pointer;
+  height:40px;
+  width:150px;
+  color:white;
+  transition: border-color 0.25s;
+  margin-left:10px;
+  outline:none;
+  border:none;
+}
+
+.list{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  color:black;
+  /* padding:0.75rem 1rem; */
+  /* padding:12px 10px; */
+  margin-bottom:20px;
+  border-bottom: 1px solid  #dcdbf9;
+  height:40px;
+  width:90%;
+  font-weight:bold;
+  /* position:absolute; */
+  position: relative;
+  /* margin-left:0px; */
+
+}
+.edit{
+  position:absolute;
+  left: 340px;
+  /* margin:10px; */
+  color:rgb(114, 116, 221)
+
+}
+.delete{
+  position: absolute;
+  right:40px;
+  color:rgb(240, 79, 79)
+ 
+}
+.edit:hover{
+  color:blue;
+  
+}
+.delete:hover{
+  color:red;
+}
+.edit-input{
+  width:350px;
+  height:40px;
+  display: flex;
+
+  /* width:500px; */
+  /* height:50px; */
+  /* position:absolute; */
+  /* display: flex; */
+  
+
+
+  
+  border:1px solid #b9b5fb;
+}
+span{
+  margin-left:10px;
+}
+.btn-save{
+  background-color:#6C63FF;
+  font-size:16px;
+  height:40px;
+  color:white;
+  border-radius: 10%;
+  border:none;
+  margin-left:5px;
+}
+.btn-cancel{
+  background-color:#6C63FF;
+  font-size: 16px;
+  height:40px;
+  color:white;
+  border-radius: 10%;
+  margin-left:5px;
+  border:none;
+}
+.div1{
+  display: flex;
+}
+.checkbox{
+  position:absolute;
+  left:7px;
+  height:15px;
+  width:15px;
+  
+
+}
+span{
+  margin-left:35px;
+}
+
+
